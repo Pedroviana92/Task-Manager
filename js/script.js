@@ -15,10 +15,10 @@ let finalizarTarefa = () => {
 
 
 let criarTarefa = () => {
-    if(inputTarefa.value.trim() == ' ') {
+    if(inputTarefa.value.trim() == '') {
         return alert('Favor preencher a tarefa')
     }
-    let tarefa = `<div class="col-md-4">
+    let tarefa = `<div class="col-md-4 mt-4">
     <div class="card-tarefa">
         <div class="texto-tarefa">
             ${inputTarefa.value}
